@@ -63,3 +63,63 @@
   width: 26px;
   margin-top: 10px;
 }
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .temparature {
+    font-size: 60px;
+  }
+
+  .location {
+    font-size: 30px;
+  }
+
+  .weather-icon {
+    width: 100px;
+  }
+
+  .search-bar input {
+    font-size: 16px;
+    height: 40px;
+  }
+
+  .weather-data .col {
+    flex: 1 1 100%; /* Stack columns vertically on smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .temparature {
+    font-size: 50px;
+  }
+
+  .location {
+    font-size: 24px;
+  }
+
+  .weather-icon {
+    width: 80px;
+  }
+
+  .search-bar {
+    gap: 8px;
+  }
+
+  .search-bar input {
+    font-size: 14px;
+    padding-left: 15px;
+    height: 36px;
+  }
+
+  .search-bar img {
+    width: 40px;
+    padding: 10px;
+  }
+
+  .weather-data .col {
+    font-size: 18px;
+  }
+
+  .weather-data .col span {
+    font-size: 14px;
+  }
+}
